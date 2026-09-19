@@ -21,4 +21,4 @@ It currently:
 
 - responds to `ping`
 - displays its available commands
-- still working on it 
+- plays roulette
