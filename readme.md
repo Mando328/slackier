@@ -22,3 +22,4 @@ It currently:
 - responds to `ping`
 - displays its available commands
 - plays roulette
+-provides "no" responses

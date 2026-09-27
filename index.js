@@ -1,5 +1,4 @@
 require("dotenv").config();
-
 const axios = require("axios");
 const { App } = require("@slack/bolt");
 const players = {};
@@ -54,6 +53,17 @@ app.command("/slackier-ping", async ({ command, ack, respond }) => {
 app.command("/slackier-help", async({ack, respond}) => {
   await ack();
   await respond({text: "/slackier-ping\n/slackier-help\n/slackier-balance\n/slackier-roulette <bet> <red|black|odd|even|0-36>"});
+});
+
+app.command("/slackier-no", async ({ ack, respond }) => {
+  await ack();
+
+  try {
+    const { data } = await axios.get("https://naas.isalman.dev/no");
+    await respond({ text: data.reason });
+  } catch (err) {
+    await respond({ text: "Failed to fetch a denial." });
+  }
 });
 
 app.command("/slackier-balance", async({command, ack}) => {
@@ -117,6 +127,7 @@ app.command("/slackier-roulette", async({command, ack, respond}) => {
     text: `You lost. The number was ${number}. Your balance is: ${p.balance}`
   });
 });
+
 
 (async () => {
   await app.start();
