@@ -30,6 +30,6 @@ It currently:
 
 - /slackier-roulette [bet] [amount] - plays roulette 
 
--slackier-no - provides funny rejection from NAAS API
+- /slackier-no - provides funny rejection from NAAS API
 
--slackier-balance - shows your account balance (curently no way to increase it if you loose it all in gambling)
+- /slackier-balance - shows your account balance (curently no way to increase it if you loose it all in gambling)
