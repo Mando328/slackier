@@ -23,3 +23,13 @@ It currently:
 - displays its available commands
 - plays roulette
 -provides "no" responses
+
+
+# Comands list:
+- /slackier-ping - provides bot latency
+
+- /slackier-roulette [bet] [amount] - plays roulette 
+
+-slackier-no - provides funny rejection from NAAS API
+
+-slackier-balance - shows your account balance (curently no way to increase it if you loose it all in gambling)
