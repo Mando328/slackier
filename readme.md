@@ -1,3 +1,16 @@
+<div align="center">
+
+<pre>
+ _________.____       _____  _________  ____  __._____.___.
+/   _____/|    |     /  _  \ \_   ___ \|    |/ _|\__  |   |
+\_____  \ |    |    /  /_\  \/    \  \/|      <   /   |   |
+/        \|    |___/    |    \     \___|    |  \  \____   |
+/_______  /|_______ \____|__  /\______  /____|__ \ / ______|
+        \/         \/       \/        \/        \/ \/
+</pre>
+
+</div>
+
 # Slackier
 
 A small Slack bot for learning and experimenting with slash commands in Slack.
