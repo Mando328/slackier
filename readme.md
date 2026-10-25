@@ -13,11 +13,14 @@
 
 # Slackier
 
-A small Slack bot for learning and experimenting with slash commands in Slack.
+A small Slack bot made for Hackclub Stardance. It served as a learning exercise. During the build I learned:
+- How to bulid slack bots
+- How to use NAAS API
+- How to host bots on hackclubs own servers "Nest"
 
-## What it does
+## Command list:
 
-Slackier currently supports:
+
 
 - `/slackier-ping` — responds with latency.
 - `/slackier-help` — lists available commands.
@@ -68,17 +71,10 @@ bot is running!
 - **HTTP client:** `axios`
 - **Environment management:** `dotenv`
 
-## Process and current limitations
-
-- Built as a learning project focused on simple command handlers and game logic.
-- Player balances are kept in memory and reset when the process restarts.
-- There is no persistent database yet.
+## Known issues:
+ There is currently no way to increase your balance once you inevitably loose all your life savings playing roulette.
+I am thinking about implementing a daily payout to solve this problem.
 
 ## Credits
 
 - [NAAS API](https://naas.isalman.dev/) for denial responses.
-- Built by @Mando328.
-
-## License
-
-ISC (see `package.json`).
