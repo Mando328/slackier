@@ -35,7 +35,7 @@ A small Slack bot made for Hackclub Stardance. It served as a learning exercise.
 - Node.js 18+ (or a current LTS version)
 - A Slack app configured for Socket Mode
 
-### 1) Clone and install dependencies
+### 1) Clone the repo and install dependecies
 
 ```bash
 git clone https://github.com/Mando328/slackier.git
@@ -58,23 +58,10 @@ SLACK_APP_TOKEN=xapp-...
 node index.js
 ```
 
-You should see:
 
-```text
-bot is running!
-```
-
-## How it is built
-
-- **Runtime:** Node.js (CommonJS)
-- **Slack SDK:** `@slack/bolt`
-- **HTTP client:** `axios`
-- **Environment management:** `dotenv`
 
 ## Known issues:
  There is currently no way to increase your balance once you inevitably loose all your life savings playing roulette.
 I am thinking about implementing a daily payout to solve this problem.
 
-## Credits
 
-- [NAAS API](https://naas.isalman.dev/) for denial responses.
