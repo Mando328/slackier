@@ -18,15 +18,15 @@ A small Slack bot made for Hackclub Stardance. It served as a learning exercise.
 - How to use NAAS API
 - How to host bots on hackclubs own servers "Nest"
 
-## Command list:
-
-
+## Commands:
 
 - `/slackier-ping` — responds with latency.
 - `/slackier-help` — lists available commands.
-- `/slackier-roulette <bet> <red|black|odd|even|0-36>` — plays roulette and updates an in-memory balance.
-- `/slackier-balance` — shows your current in-memory balance.
+- `/slackier-roulette <bet> <red|black|odd|even|0-36>` — plays roulette.
+- `/slackier-balance` — shows your current balance.
 - `/slackier-no` — fetches a funny rejection from the NAAS API.
+
+___
 
 ## Local development
 
