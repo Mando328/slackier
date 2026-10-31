@@ -1,22 +1,18 @@
-<div align="center">
-
-<pre>
- _________.____       _____  _________  ____  __._____.___.
-/   _____/|    |     /  _  \ \_   ___ \|    |/ _|\__  |   |
-\_____  \ |    |    /  /_\  \/    \  \/|      <   /   |   |
-/        \|    |___/    |    \     \___|    |  \  \____   |
-/_______  /|_______ \____|__  /\______  /____|__ \ / ______|
-        \/         \/       \/        \/        \/ \/
-</pre>
-
+<div align = "center">
+ 
+```
+   _____  __     ___    ______ __ __  ____ ______ ____ 
+  / ___/ / /    /   |  / ____// //_/ /  _// ____// __ \
+  \__ \ / /    / /| | / /    / ,<    / / / __/  / /_/ /
+ ___/ // /___ / ___ |/ /___ / /| | _/ / / /___ / _, _/ 
+/____//_____//_/  |_|\____//_/ |_|/___//_____//_/ |_|  
+                                                       
+```
 </div>
 
-# Slackier
+# What is this?
+Slackier is a learning project created for Hack Club Stardance. It is a simple Slack bot that can play roulette and fetch data from API. During the development I learned how to host bots and how slack API works.
 
-A small Slack bot made for Hackclub Stardance. It served as a learning exercise. During the build I learned:
-- How to bulid slack bots
-- How to use NAAS API
-- How to host bots on hackclubs own servers "Nest"
 
 ## Commands:
 
@@ -26,42 +22,31 @@ A small Slack bot made for Hackclub Stardance. It served as a learning exercise.
 - `/slackier-balance` — shows your current balance.
 - `/slackier-no` — fetches a funny rejection from the NAAS API.
 
-___
 
-## Local development
 
-### Prerequisites
+## Local development:
 
-- Node.js 18+ (or a current LTS version)
-- A Slack app configured for Socket Mode
-
-### 1) Clone the repo and install dependecies
-
-```bash
+### Prerequisites:
+ - Node 18 +
+ - A Slack app configured for Socket Mode
+   
+ ### 1 Clone the repo
+ ``` bash
 git clone https://github.com/Mando328/slackier.git
 cd slackier
 npm install
 ```
-
-### 2) Configure environment variables
-
-Create a `.env` file in `/home/runner/work/slackier/slackier`:
-
-```env
-SLACK_BOT_TOKEN=xoxb-...
-SLACK_APP_TOKEN=xapp-...
+### 2 Create .env file:
+ ``` env
+ SLACK_BOT_TOKEN=xoxb-...
+ SLACK_APP_TOKEN=xapp-...
 ```
-
-### 3) Run locally
-
-```bash
+### 3 Run localy 
+```
 node index.js
 ```
-
-
 
 ## Known issues:
  There is currently no way to increase your balance once you inevitably loose all your life savings playing roulette.
 I am thinking about implementing a daily payout to solve this problem.
-
 
